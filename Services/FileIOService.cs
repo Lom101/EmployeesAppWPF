@@ -13,7 +13,7 @@ namespace EmployeesApp.Services
 {
     class FileIOService
     {
-        private readonly string PATH;
+        private string PATH;
 
         public FileIOService(string path)
         {
